@@ -8,7 +8,7 @@
 }
 
 #body {
-    background: url(/images/background.jpg);
+    background: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -23,7 +23,7 @@
     display: grid;
     width: 90vmin;
     height: 90vmin;
-    background: url(/images/gameboard.jpg);
+    background: url(./images/gameboard.jpg);
     background-size: cover;
     box-shadow: 1px 1px 40px 40px rgb(110, 231, 40);
     border: 10px solid rgb(127, 255, 101);
