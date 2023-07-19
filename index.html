@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/snake.jpg">
+
+</head>
+
+<body>
+    <div id="body">
+
+        <div class="buttons">
+
+            <button id="play" onclick="startGame()">Play</button>
+            <select name="" id="speedLevel" onclick="speedL()">
+                <option value="4">Speed 4</option>
+                <option value="6">Speed 6</option>
+                <option value="8">Speed 8</option>
+                <option value="10">Speed 10</option>
+            </select>
+            <button id="hiscoreBox">HighScore: 0</button>
+            <button id="scoreBox">Score: 0</button>
+        </div>
+
+
+        <div id="board"></div>
+
+    </div>
+</body>
+
+</html>
